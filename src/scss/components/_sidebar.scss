@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: #212529;
+    color: white;
+    .brand {
+      background-color: black;
+      height: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        font-weight: 900;
+        letter-spacing: 0.3vw;
+        span {
+          color: #4A9CD9;
+          font-weight: 900;
+        }
+      }
+    }
+    .links {
+      li {
+        list-style-type: none;
+        margin: 0 auto;
+        width: 70%;
+        margin-top: 2rem;
+        a {
+          color: white;
+          text-transform: uppercase;
+          text-decoration: none;
+          display: flex;
+          gap: 0.7rem;
+          transition: 0.5s ease-in-out;
+          &:hover {
+            color: #4A9CD9;
+          }
+        }
+      }
+    }
+  }
+  
